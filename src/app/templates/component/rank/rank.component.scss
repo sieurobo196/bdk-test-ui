@@ -1,0 +1,44 @@
+.rank {
+  .filter-rank {
+    background: #F1F3F4;
+    margin: 0;
+    color: #000;
+    opacity: 0.8;
+
+    .filter-by {
+      .select-fillter {
+        font-size: 16px;
+        padding: 2px 7px;
+        margin: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        height: 30px;
+      }
+    }
+  }
+
+  .detail-rank {
+    .table {
+      .row-detail-rank {
+        height: 40px;
+        padding: 0px;
+        .join-league {
+          background-color: blue;
+          width: 16px;
+          height: 40px;
+          float: left;
+        }
+        .position-rank {
+          float: left;
+          width: 25px;
+          height: 40px;
+        }
+        .logo-club {
+          float: left;
+          width: 24px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}

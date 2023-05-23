@@ -1,0 +1,29 @@
+#header {
+  background: #162E58;
+  height: 54px;
+  .navbar {
+    justify-content: center !important;
+    padding: 0;
+    height: 60px;
+  }
+  ul.navbar-nav {
+    display: table;
+    li {
+      display: table-cell;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      vertical-align: top;
+      cursor: pointer;
+      padding: 16px 0 14px;
+      width: 150px;
+      .nav-link {
+        padding: 0 10px;
+        font-weight: 500;
+      }
+    }
+    .active {
+      border-bottom: 4px solid #fff;
+    }
+  }
+}
